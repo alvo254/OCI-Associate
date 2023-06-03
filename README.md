@@ -28,3 +28,5 @@ This is documentation on Oracle Cloud Infrastructure Associate
 
 -   Explain the OCI Pricing model
 -   Explain the OCI SLA and Support model
+
+## OCI Cloud racer 

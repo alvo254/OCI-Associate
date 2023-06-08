@@ -35,3 +35,10 @@ Regions and ADs
 OCI has been built using the concept of regions. A region is simply a physical location in the world where OCI hosts data centers. In a nutshell, a region is a localized geographic area. Within a region, OCI hosts one or more physical data centers and calls this an Availability Domain (AD).
 In this section, we will look at the main concepts of OCI in more detail, such as regions, ADs, and fault domains. Additionally, we will learn how to subscribe to other regions.
 A lot of OCI services are regional; for example, Virtual Cloud Networks (VCNs). If you create a VCN, it will span across the AD. Other services are AD-specific, such as compute resources. You can create a compute instance that has access to a specific AD. Additionally, there is a very strong interconnectivity between the ADs within a region and across regions. Within an AD, interconnected traffic is encrypted as well.
+
+Compartments
+Compartments are the logical containers of resources. Compartments typically have a 
+policy attached to them to control access to the resources inside. Compartments can 
+be nested as well. They can span regions, which makes it possible to add, for example, 
+compute instances from different regions to the same compartment and have them 
+guarded by the same policy
